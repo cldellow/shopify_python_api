@@ -182,7 +182,7 @@ these steps:
     creating the session object.
 
     ```python
-    session = shopify.Session("SHOP_NAME.myshopify.com", token)
+    session = shopify.Session("SHOP_NAME.myshopify.com", '2019-10', token)
     ```
 
 5.  The session must be activated before use:
